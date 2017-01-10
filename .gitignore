@@ -1,0 +1,24 @@
+# General Folders
+# Any folder with the same name as below will be ignored
+
+# gradle/ comment when using gradle wrapper
+build/
+bin/
+gen/
+proguard/
+# gradle/
+.gradle/
+.settings/
+.idea/
+
+.project
+.classpath
+.DS_Store
+local.properties
+gradle.properties
+*.iml
+*.patch
+# gradlew
+# gradlew.bat
+project.properties
+Thumbs.db

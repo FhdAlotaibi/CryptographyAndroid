@@ -65,10 +65,8 @@ KeyStore stores cryptographic keys in a container to make it more difficult to e
         } catch (GeneralSecurityException e) {
             e.printStackTrace();
         }
-        
 ```
 #Download
-  * **Via maven**
   ```xml
   <dependency>
   <groupId>com.github.fhdalotaibi</groupId>
@@ -77,7 +75,6 @@ KeyStore stores cryptographic keys in a container to make it more difficult to e
   <type>aar</type>
   </dependency> 
 ```
-  * **via gradle**
-  ``` 
+  ```groovy
   compile 'com.github.fhdalotaibi:android-cryptography:1.0.0'
   ```

@@ -67,3 +67,17 @@ KeyStore stores cryptographic keys in a container to make it more difficult to e
         }
         
 ```
+#Download
+  * **Via maven**
+  ```xml
+  <dependency>
+  <groupId>com.github.fhdalotaibi</groupId>
+  <artifactId>android-cryptography</artifactId>
+  <version>1.0.0</version>
+  <type>aar</type>
+  </dependency> 
+```
+  * **via gradle**
+  ``` 
+  compile 'com.github.fhdalotaibi:android-cryptography:1.0.0'
+  ```

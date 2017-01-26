@@ -22,3 +22,11 @@ gradle.properties
 # gradlew.bat
 project.properties
 Thumbs.db
+
+# [Maven] ========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties

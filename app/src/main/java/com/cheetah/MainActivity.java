@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivityTag";
     private String message = "i want to encrypt this message, it is very important message";
-
     private static final String MESSAGE_KEY_STORE_ALIAS = "keyStoreAliasForMessage";
 
     @Override
@@ -34,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         CryptographyManager cryptographyManager = new CryptographyManager(this);
+
         try {
             String cipherMessage = cryptographyManager.encrypt(message, MESSAGE_KEY_STORE_ALIAS);
             Toast.makeText(this, cipherMessage, Toast.LENGTH_SHORT).show();
